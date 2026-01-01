@@ -69,5 +69,5 @@ app.post('/login',async(req, res)=>{
         {expiresIn:"1h"}
     );
     
-    res.json({token})
+    return res.json({token})
 });
