@@ -21,3 +21,10 @@ user types -> waits -> waits -> user stop typeing
                         show results
 
 ```
+
+### different formats to say it
+1. “How do you prevent excessive API calls while typing?”
+2. “Search is slow and server load is high — fix it.”
+3. “We want search to trigger only after user pauses.”
+4. “Optimize live search input.”
+
