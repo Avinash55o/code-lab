@@ -1,5 +1,4 @@
 //step 1: import the necessory modules
-import { promises } from 'dns';
 import { useEffect, useRef, useState } from 'react';
 
 //step 2: types
@@ -14,7 +13,6 @@ function InfinitePosts() {
      *then corsor to remember the progress
      *loading state - stops the duplicate api
      *hashmore state -stops request when data ends
-
   */
   const [posts, setposts] = useState<post[]>([]);
   const [cursor, setcursor] = useState<number | null>(null);
